@@ -40,51 +40,130 @@
         </nav>
     </header>
     <main>
-        <section class="">
-                <div class="slider-card1">
-                    <div class="slider conteiner">
-                        <h1 class="slider-header">Широкий спектр<br> товаров для клиник и<br> лабораторий</h1>
-                        <div class="slider-description">
-                            <img src="./icons/SupportIcon.svg" alt="Медицина"></img>
-                            <p>Ветеринарное оборудование<br> и расходные материалы к ним</p>
-                        </div>
-                        <div class="botton-slider">
-                            <div class="botton-left"><img src="./icons/BottonLeft.svg" alt="влево/left" class="botton-left-element"></div>
-                            <div class="botton-right"><img src="./icons/BottonRight.svg" alt="вправо/right" class="botton-right-element"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-card2">
-                    <div class="slider conteiner">
-                        <h1 class="slider-header">Широкий спектр<br> товаров для клиник и<br> лабораторий</h1>
-                        <div class="slider-description">
-                            <img src="./icons/SupportIcon.svg" alt="Медицина"></img>
-                            <p>Ветеринарное оборудование<br> и расходные материалы к ним</p>
-                        </div>
-                        <div class="botton-slider">
-                            <div class="botton-left"><img src="./icons/BottonLeft.svg" alt="влево/left" class="botton-left-element"></div>
-                            <div class="botton-right"><img src="./icons/BottonRight.svg" alt="вправо/right" class="botton-right-element"></div>
+        <!-- секция со слайдом -->
+        <section class="swiper-conteiner">
+            <!-- основной контейнер swiper -->
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- первый слайд -->
+                    <div class="swiper-slide slide-main">
+                        <div class="conteiner slides-main">
+                            <h1 class="title-main">Широкий спектр товаров для клиник и лабораторий</h1>
+                            <div class="discription-main">
+                                <img src="./icons/SupportIcon.svg" alt="helps">
+                                <p>Ветеринарное оборудование и расходные материалы к ним</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="slider-card3">
-                    <div class="slider conteiner">
-                        <h1 class="slider-header">Широкий спектр<br> товаров для клиник и<br> лабораторий</h1>
-                        <div class="slider-description">
-                            <img src="./icons/SupportIcon.svg" alt="Медицина"></img>
-                            <p>Ветеринарное оборудование<br> и расходные материалы к ним</p>
-                        </div>
-                        <div class="botton-slider">
-                            <div class="botton-left"><img src="./icons/BottonLeft.svg" alt="влево/left" class="botton-left-element"></div>
-                            <div class="botton-right"><img src="./icons/BottonRight.svg" alt="вправо/right" class="botton-right-element"></div>
+                    <!-- 2 слайд -->
+                    <div class="swiper-slide slide-main">
+                        <div class="conteiner slides-main">
+                            <h1 class="title-main">Широкий спектр товаров для клиник и лабораторий</h1>
+                            <div class="discription-main">
+                                <img src="./icons/SupportIcon.svg" alt="helps">
+                                <p>Ветеринарное оборудование и расходные материалы к ним</p>
+                            </div>
                         </div>
                     </div>
+                    <!-- 3 слайд -->
+                    <div class="swiper-slide slide-main">
+                        <div class="conteiner slides-main">
+                            <h1 class="title-main">Широкий спектр товаров для клиник и лабораторий</h1>
+                            <div class="discription-main">
+                                <img src="./icons/SupportIcon.svg" alt="helps">
+                                <p>Ветеринарное оборудование и расходные материалы к ним</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+
+                <!-- Навигация кнопки -->
+                 <div class="swiper-botton">
+                    <div class="swiper-button-next swiper-button-next-white">
+                        <div class="next"><img src="./icons/BottonRight.svg" alt="nextArrow"></div>
+                    </div>
+                    <div class="swiper-button-prev swiper-button-next-white">
+                        <div class="prev"><img src="./icons/BottonLeft.svg" alt="prevArrow"></div>
+                    </div>
                 </div>
+                <!-- Пагинация -->
+                <div class="swiper-pagination swiper-pagination-white"></div>
+                
+            </div>    
+        </section>
+        <section class="cards-conteiner conteiner">
+            <div class="text-width"><h2 class="title-cards-conteiner">Товары и услуги</h2></div>
+            <div class="text-width"><p class="description-cards">Компания «ДИАКОН-ВЕТ» поставляет ветеринарную продукцию, предлагая комплексное оснащение клиник и лабораторий<br> оборудованием, реагентами и расходными материалами, включая послепродажное сервисное обслуживание.</p></div>
+            <div class="cards-list">
+                <div class="card">
+                    <img class="card-img" src="./img/CardScales.svg" alt="Scales">
+                    <div class="border"><h3 class="title-cards">Лабораторная диагностика</h3></div>
+                </div>
+                 <div class="card">
+                    <img class="card-img" src="./img/CardEquipment.svg" alt="Equipment">
+                    <div class="border"><h3 class="title-cards">Функциональная диагностика</h3></div>
+                </div>
+                 <div class="card">
+                    <img class="card-img" src="./img/CardSurgery.svg" alt="Surgery">
+                    <div class="border"><h3 class="title-cards">Терапия и хирургия</h3></div>
+                </div>
+                 <div class="card">
+                    <img class="card-img" src="./img/CardFlasks.svg" alt="Flasks">
+                    <div class="border"><h3 class="title-cards">Общелабораторное оборудование</h3></div>
+                </div>
+                 <div class="card">
+                    <img class="card-img" src="./img/CardService.svg" alt="Service">
+                    <div class="border"><h3 class="title-cards">Сервис</h3></div>
+                </div>
+                 <div class="card">
+                    <div class="border"><h3 class="title-cards">Вся продукция</h3></div>
+                </div>
+            </div> 
         </section>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            //Создание нового слайдера
+            const swiper = new Swiper ('.swiper', {
+                //основные параметры
+                direction: 'horizontal', // горизонтальное направление
+                loop: true, //зацикливание
+                speed: 800, //скорость анимации в мс
+                effect: 'slide', // эффект прокрутки
 
+                //автопрокрутка
+                autoplay:{
+                    delay: 3000, //интервал автопрокрутки 3с
+                    disableOnInteraction: false, //не останавливаеться при взаимодействии
+                },
+
+                pagination:{
+                    el: '.swiper-pagination', //пагинация
+                    clickable: true, //активация пагинации по нажатию
+                },
+
+                nanvigation:{
+                    nextEl: '.swiper-button-next', //кнопка вперед
+                    prevEl: '.swiper-button-prev', //кнопка назад
+                },
+
+                //адаптивность
+                breakpoints: {
+                    786:{
+                        slidesPerView: 1, //отображаеться 1 слайд
+                        spaceBetween: 0, //растояние между слайдами
+                    },
+                    1200: {
+                        slidesPerView: 1, //отображаеться 1 слайд
+                        spaceBetween: 0, //растояние между слайдами  
+                    }
+                }
+            })
+        })
     </script>
 
 </body>
