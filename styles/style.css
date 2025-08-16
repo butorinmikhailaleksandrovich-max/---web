@@ -22,6 +22,7 @@
     --color-text-black: #000000;
     --colot-text-white: #FFFFFF;
     --color-title-blue: #2E5587;
+    --color-text-gray: #383A3C;
 
     --button-green: #6BB233;
 
@@ -38,6 +39,7 @@
     --colot-title-blue-hover: #2a5081;
 
     --color-border-gray: #CCCDD7;
+    --color-border-light-gray: #DADADA;
 
     --button-green-hover: #65b826;
 
@@ -107,54 +109,121 @@ nav {
     border-right: var(--color-border-gray) solid 1px;
     padding-right: 22px;
 }
-.slider-card1 {
-    background-image: url('../img/BackgroundSlider1.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.slide-main {
+    background-image: url(../img/BackgroundSlider1.svg);
 }
-.slider-card2 {
-    background-image: url('../img/BackgroundSlider2.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.slide-main:nth-child(2) {
+    background-image: url(../img/BackgroundSlider2.svg);
 }
-.slider-card3 {
-    background-image: url('../img/BackgroundSlider3.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.slide-main:nth-child(3) {
+    background-image: url(../img/BackgroundSlider3.svg);
 }
-.slider-header {
-    color: var(--colot-text-white);
-    font-size: var(--font-size-title-main);
+.title-main {
+    font-size: var(--font-size-title-main) ;
     font-weight: var(--font-weight-title);
+    color: var(--colot-text-white-hover);
+    width: 643px;
 }
-.slider-description {
-    display: flex;
-    column-gap: 19px;
+.discription-main {
+    font-size: var(--font-size-description-card);
+    font-weight: var(--font-weight-description) ;
     color: var(--colot-text-white);
-    font-size: var(--font-size-description);
-    font-weight: var(--font-weight-description);
-    margin-top: 35px;
-}
-.botton-slider {
     display: flex;
-    column-gap: 15px;
-    margin-top: 58px;
-    margin-bottom: 55px;
+    align-items: center;
+    gap: 19px;
+    margin-top: 41px;
 }
-.botton-left, .botton-right {
-    display: flex;
+.discription-main p{
+    width: 227px;
+}
+.slides-main {
+    padding: 103px 0 89px 0;
+}
+.next,.prev{
     background-color: var(--background-color-white);
     width: 58px;
     height: 58px;
-    border-radius: 50%;
+    border-radius: 100%;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    position: absolute;
 }
-.botton-right {
-    margin-left: 15px;
+.prew{
+    left: 12.5%;
 }
-.botton-left-element {
-    margin-left: 24px;
+.next{
+    left: 20%;
 }
-.botton-right-element {
-    margin-left: 26px;
+.swiper-pagination-white span{
+    background-color: var(--background-color-white);
+    height: 5px;
+    width: 5px;
+}
+.swiper-button-next-white::after, .swiper-button-prev-white::after{
+    display: none;
+}
+.swiper-button-next-white, .swiper-button-prev-white {
+    display: none;
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+}
+.swiper-button{
+    position: relative;
+    width: 100%;
+}
+.swiper-padding{
+    padding-bottom: 20px;
+}
+.title-cards-conteiner {
+    font-size: var(--font-size-title);
+    color: var(--color-title-blue);
+    font-weight: var(--font-weight-title);
+}
+.description-cards {
+    font-size: var(--font-size-description);
+    color: var(--color-text-gray);
+    font-weight: var(--font-weight-description);
+    text-align: center;
+    padding: 47px 0 40px 0;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 33px;
+    column-gap: 30px;
+}
+.text-width {
+    width: 100%;
+    text-align: center;
+}
+.border {
+    height: 100px;
+    border-bottom: 1px solid var(--color-border-light-gray);
+    border-left: 1px solid var(--color-border-light-gray);
+    border-right: 1px solid var(--color-border-light-gray);
+}
+.card-img {
+    display: block;
+}
+.title-cards {
+    font-size: var(--font-size-title-card);
+    font-weight: var(--font-weight-title);
+    color: var(--color-text-black);
+    padding: 19px 0 0 28px;
+}
+.card:nth-last-child(1) {
+    background-color: var(--background-color-blue);
+    width: 450px;
+}
+.card:nth-last-child(1) .border {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cards-conteiner {
+    margin-top: 156px;
 }
