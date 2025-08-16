@@ -227,3 +227,67 @@ nav {
 .cards-conteiner {
     margin-top: 90px;
 }
+.botton {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    transition: 200ms;
+}
+.botton:hover {
+    background-color: var(--colot-text-white-hover);
+}
+.botton:active {
+    background-color: inherit;
+}
+.bottons {
+    display: flex;
+    column-gap: 15px;
+}
+.bestsellers-background {
+    background-color: var(--background-color-blue);
+}
+.bestsellers {
+    margin-top: 90px;
+}
+.bestsellers-img {
+    display: block;
+}
+.bestsellers-card-title {
+    width: 387px;
+    color: var(--color-text-black);
+    font-size: var(--font-size-title-card);
+    font-weight: var(--font-weight-title);
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.bestsellers-card-text {
+    width: 374px;
+    color: var(--color-text-gray);
+    font-size: var(--font-size-description-card);
+    font-weight: var(--font-weight-description);
+    padding-top: 62px;
+    padding-left: 35px;
+}
+.bestsellers-card{
+    width: 450px;
+}
+.bestsellers-card-description {
+    height: 254px;
+    border-bottom: 1px solid var(--color-border-light-gray);
+    border-left: 1px solid var(--color-border-light-gray);
+    border-right: 1px solid var(--color-border-light-gray);
+}
+.bestsellers-cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.bestsellers-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
