@@ -248,6 +248,7 @@ nav {
 }
 .bestsellers-background {
     background-color: var(--background-color-blue);
+    padding-bottom: 83px;
 }
 .bestsellers {
     margin-top: 90px;
@@ -290,4 +291,20 @@ nav {
     justify-content: space-between;
     padding-top: 75px;
     padding-bottom: 50px;
+}
+.new-text {
+    padding-top: 0px;
+}
+.new {
+    margin-top: 90px;
+}
+.new-card-description {
+    border: none;
+    border-top: 1px solid var(--color-border-light-gray);
+}
+.new-card {
+border: 1px solid var(--color-border-light-gray);
+}
+.new-cards-list {
+    column-gap: 27px;
 }
