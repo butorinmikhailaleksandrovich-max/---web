@@ -308,3 +308,16 @@ border: 1px solid var(--color-border-light-gray);
 .new-cards-list {
     column-gap: 27px;
 }
+.promotion-card-title {
+    color: var(--color-text-black);
+    font-size: var(--font-size-title-card);
+    font-weight: var(--font-weight-title);
+    padding-top: 35px;
+}
+.promotion-card {
+    width: 328px;
+    height: 331px;
+}
+.promotion-background {
+    padding-bottom: 62px;
+}
